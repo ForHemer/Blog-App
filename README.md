@@ -32,6 +32,7 @@ To get a local copy up and running follow these simple example steps.
 
 - Run the command `git clone git@github.com:ForHemer/Blog-App.git` to clone this repository to your local computer. Choose the location you prefer.
 - Run the command `bundle install` to install all project's dependencies.
+- Run the command `rspec` to test all project's tests.
 
 ### Usage
 
