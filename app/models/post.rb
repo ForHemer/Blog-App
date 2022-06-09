@@ -7,11 +7,11 @@ class Post < ApplicationRecord
   after_destroy :decrement_by_one
 
   def increment_by_one
-    author.increment! :PostCounter
+    author.increment! :PostsCounter
   end
 
   def decrement_by_one
-    author.decrement! :PostCounter
+    author.decrement! :PostsCounter
   end
 
   def recent_comment
