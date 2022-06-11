@@ -216,6 +216,9 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+    seed_dump (3.3.1)
+      activerecord (>= 4)
+      activesupport (>= 4)
     selenium-webdriver (4.2.1)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
@@ -276,6 +279,7 @@ DEPENDENCIES
   rails (~> 7.0.3)
   rails-controller-testing
   rspec-rails
+  seed_dump
   selenium-webdriver
   sprockets-rails
   stimulus-rails
