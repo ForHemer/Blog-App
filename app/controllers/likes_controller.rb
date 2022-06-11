@@ -11,12 +11,6 @@ class LikesController < ApplicationController
 
     Like.create(like_params)
     redirect_to user_post_path(user_id: params[:user_id], id: params[:post_id]), notice: 'Like Added!'
-
-    # @post.likes.create(like_params)
-    # redirect_to user_post_path(
-    #   user_id: params[:user_id],
-    #   id: params[:post_id]
-    # )
   end
 
   private
