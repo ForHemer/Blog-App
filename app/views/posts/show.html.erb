@@ -1,2 +1,11 @@
-<h1>Posts#show</h1>
-<p>Find me in app/views/posts/show.html.erb</p>
+<section class="user-post-detail"> 
+    <div class="user-picture">
+      <img src=<%=@post.author.photo%> alt=<%=@post.author.name%> />
+    </div>
+    <div class="user-detail"> 
+      <h2 class="user-name"><%=@post.author.name %></h2>
+      <p><strong>Number of Posts: <%= @post.author.posts_counter || 0 %>
+    </div>    
+    <p><%= @post.text %></p>
+    <%= render "shared/comments", comments: @post.comments %> 
+</section>

@@ -1,2 +1,21 @@
-<h1>Users#show</h1>
-<p>Find me in app/views/users/show.html.erb</p>
+<%= stylesheet_link_tag "user_detail", "data-turbo-track": "reload" %>
+
+<section class="user">
+  <%= render "shared/profile",  user: @user %>
+  <div class="user-bio">
+  <h3>Bio</h3>
+    <p><%=@user.bio%></p>
+  </div>
+
+  <% @user.posts.limit(2).each do |post| %>
+    <%= render "shared/post", post: post %>
+  <%end %>
+
+  <% if @user.posts.count > 2 %>
+    <button type="button" class="btn btn-secondary">
+      See More Posts
+    <button>      
+  <%end%>
+
+
+</section>

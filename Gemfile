@@ -74,4 +74,5 @@ end
 
 gem 'ffi'
 
+gem 'rack-cors', require: 'rack/cors'
 gem 'rails-controller-testing'
