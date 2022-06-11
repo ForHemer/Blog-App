@@ -1,6 +1,6 @@
 <section class="users-list"> 
-  <h1>List of users</h1>
   <%@users.each do |user| %>
-     <%= render "shared/profile",  user: user %>
+     <%= render "shared/profile",  user: user %>   
   <%end %>
+  <%= link_to 'New User', new_user_path %>
 </section>
