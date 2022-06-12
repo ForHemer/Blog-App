@@ -4,13 +4,6 @@
 The Blog app will be a classic example of a blog website. It will show the list of posts and empower readers to interact with them by adding comments and liking posts.
 
 
-## Project -1 Features
-
-- Setup the Blog App project.
-- Create the routes for `users` and `posts`.
-- Create the controller actions `index` and `show` for `users` and `posts`.
-
-
 ## Built With
 
 - Ruby
@@ -37,6 +30,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 - Run the command `rails db:create` to create the app's database.
+- Run the command `rails db:migrate` to create migration.
 - Run the command `rails s` to execute the programm.
 - Open the url `http://localhost:3000` on a browser.
 - Run `rails routes` to list the routes
