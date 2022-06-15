@@ -52,6 +52,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'rspec-rails'
+  gem 'letter_opener'
 end
 
 group :development do
@@ -81,3 +82,4 @@ gem 'rails-controller-testing'
 gem 'bootstrap', '~> 5.0'
 gem 'bootstrap_form', '~> 5.0'
 gem 'seed_dump'
+gem 'devise'
