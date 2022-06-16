@@ -43,6 +43,11 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@HemersonForeste](https://twitter.com/HemersonForeste)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/hemerson-foreste-890685197)
 
+
+👤 **Lisandro Seia**
+
+ **GitHub**  | [@lisandroseia](https://github.com/lisandroseia)
+ **LinkdIn** | [LinkedIn](https://www.linkedin.com/in/lisandro-seia-295120225/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
