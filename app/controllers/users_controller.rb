@@ -40,7 +40,6 @@ class UsersController < ApplicationController
       redirect users_path
       flash[:alert] = "You don't have previlage to delete the user!"
     end
-        
   end
 
   private
