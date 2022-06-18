@@ -57,4 +57,16 @@ RSpec.describe 'UserShowPage', type: :system do
       expect(page).to have_button('See All Posts')
     end
   end
+
+  context '#Post' do
+    it "should redirect to post's show page by clicking on a given post" do
+      click_link(id: "link_post-#{@post.id}")
+      expect(current_path).to eq(user_post_path(user_id: @user.id, id: @post.id))
+    end
+
+    it "should redirect to the user's posts index page by clicking on button See all posts" do
+      click_link(href: user_posts_path(@user.id))
+      expect(current_path).to eq(user_posts_path(@user.id))
+    end
+  end
 end
