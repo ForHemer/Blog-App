@@ -81,5 +81,6 @@ gem 'rails-controller-testing'
 
 gem 'bootstrap', '~> 5.0'
 gem 'bootstrap_form', '~> 5.0'
+gem 'cancancan'
 gem 'devise'
 gem 'seed_dump'
